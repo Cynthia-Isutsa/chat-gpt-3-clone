@@ -1,18 +1,22 @@
 import React from 'react'
-
-import Article from './components/article/Article';
-import Brand from './components/brand/Brand';
-import Cta from './components/cta/Cta'
-import Feature from './components/feature/Feature'
-import Navbar from './components/navbar/Navbar'
-
-
-
+import {Blog, Features, Footer, Header, Possibility, WhatGpt3} from './containers'
+import {Cta, Brand, Navbar} from './components'
+import './App.css'
 
 function App() {
   return (
-    <div>
-        <h1>Chat gpt</h1>
+    <div className = "App">
+      <div className = "gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGpt3 />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 }
