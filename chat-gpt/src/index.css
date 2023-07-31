@@ -12,3 +12,10 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
 }
+
+.gradient__text{
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-import './Brand.css'
 import {google, slack, atlassian, dropbox, shopify } from './imports'
+import './Brand.css'
 
 const Brand = () => {
   return (
-    <div className = "gpt3__brand section__padding">
+    <div className='gpt3__brand section__padding'>
       <div>
           <img src= {google} alt ="google" />
       </div>
